@@ -1,0 +1,32 @@
+#dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #444;
+}
+
+/* 暗色模式 */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #cccccc;
+}
+
+/* 其他元素的暗色样式（根据需要修改） */
+header, footer, .content {
+    background-color: #2c2c2c;
+    color: #cccccc;
+}
+
+button, a {
+    color: #f1f1f1;
+}
